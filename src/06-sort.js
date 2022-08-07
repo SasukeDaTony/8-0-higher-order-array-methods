@@ -38,7 +38,7 @@ function sortByArtistNameDescending(songs) {
  * @returns {Object[]}
  */
 function sortBySongTitleAscending(songs) {
-  return songs.sort((song1, song2) => song1.title.toLowerCase() > song2.title.toLowerCase() ? 1 : -1) ;
+  return  songs.sort((song1, song2) => song1.title.toLowerCase() > song2.title.toLowerCase() ? 1 : -1) ;
 }
 
 module.exports = {
